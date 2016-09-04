@@ -1,0 +1,46 @@
+.PopupPanel
+{
+	border: solid 1px black;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-color: white;
+	z-index: 100;
+	
+	height: 400px;
+	margin-top: -140px;
+	
+	width: 800px;
+	margin-left: -400px;
+}
+
+.PopupPanelModalArea
+{
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color:silver;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+	z-index: 99;
+	border: 0;
+	-moz-opacity: 0.60;
+}
+
+
+.PopupPanel .TitleBar
+{
+	margin: 0;
+	display: block;
+	background-color: #0058ee;
+	line-height: 20px;
+	color: white;
+	font-weight: bold;
+	padding: 0 0 0 5px;
+}
+
+.PopupPanel .ContentArea
+{
+	padding: 0 0 0 5px;
+}

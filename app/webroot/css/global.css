@@ -1,0 +1,117 @@
+/* 
+	Resets defualt browser settings
+	reset.css
+*/
+#container {
+	width:342px;
+	padding:10px;
+	margin:0 auto;
+	position:relative;
+	z-index:0;
+}
+
+#products_example {
+	width:342px;
+	height:282px;
+	position:relative;
+}
+
+/*
+	Slideshow
+*/
+
+#products {
+	margin-left:0px;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+#products .slides_container {
+	width:342px;
+	overflow:hidden;
+	position:relative;
+	border:1px solid #dfdfdf;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container a {
+	width:342px;
+	height:274px;
+	display:block;
+	text-align:center;
+}
+
+/*
+	Next/prev buttons
+*/
+
+#products .next,#products .prev {
+	position:absolute;
+	top:127px;
+	left:0;
+	width:21px;
+	height:0;
+	padding-top:21px;
+	overflow:hidden;
+	display:block;
+	z-index:101;
+}
+
+#products .prev {
+	background:url(../images_index/arrow-prev.png) no-repeat;
+}
+
+#products .next {
+	left:420px;
+	background:url(../images_index/arrow-next.png) no-repeat;
+}
+
+/*
+	Pagination
+*/
+
+#products .pagination {
+    background: none repeat scroll 0 0 #DFDFDF;
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-top: 5px;
+	margin-left:30px;
+    padding: 5px;
+}
+
+#product_list .pagination li {
+	float:left;
+	margin:0px 4px;
+	list-style:none;
+}
+
+#product_list .pagination li a {
+	display:block;
+	width:auto;
+	height:50px;
+	margin:1px;
+	float:left;
+	background:#f9f9f9;
+}
+
+#product_list .pagination li.current a {
+	border:1px solid #7f7f7f;
+	margin:0;
+}
+
+/*
+	Footer
+*/
+

@@ -1,0 +1,1 @@
+msgid "Xin chào"msgstr "Hello"msgid "Đây là một ví dụ về đa ngôn ngữ"msgstr "This is an multi language example 
